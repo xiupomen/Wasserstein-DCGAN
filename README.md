@@ -6,7 +6,7 @@ Wasserstein DCGAN code based on carpedm20/DCGAN-tensorflow
 3) edit main.py, change: from wmodel import DCGAN
 4) run with same parameters
 
-just implement Wasserstein algorithm base on original DCGAN code structure,
+just implement Wasserstein GAN algorithm base on original DCGAN code structure,
 if you've read the origal DCGAN code, you'd find the changed spots easily:
 the 2 new loss functions, clipping operation, different optimization method, discards sigmoid from discriminator output.
 
