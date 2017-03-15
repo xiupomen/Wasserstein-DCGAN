@@ -18,4 +18,4 @@ some observations:
 2) in model.py train()
     the sample noise input:
     sample_z = np.random.uniform(-0.5, 0.5, size=(self.sample_num , self.z_dim))
-    use 0.5 instead of 1, the sample outputs would look better, it seems the smaller noise abs values the better output quality, but less variation.
+    use 0.5 instead of 1, the sample outputs quality would look better, it seems the smaller noise abs values the better output quality, but less variation.
